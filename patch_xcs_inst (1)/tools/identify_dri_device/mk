@@ -1,0 +1,3 @@
+gcc -Wall tst_dri_device.cpp -I/usr/include/libdrm -L/usr/lib/arm-linux-gnueabihf -ldrm -lgbm -o tst_dri_device
+gcc -Wall fnd_dri_device.cpp -I/usr/include/libdrm -L/usr/lib/arm-linux-gnueabihf -ldrm -lgbm -o fnd_dri_device
+cp tst_dri_device fnd_dri_device ~/bin
