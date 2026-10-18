@@ -9,6 +9,7 @@ Context menu support and helper tools for running XCSoar on a Raspberry Pi 4. Th
 - [Requirements](#requirements)
 - [Quick start](#quick-start)
 - [Usage](#usage)
+- [Screenshots](#screenshots)
 - [Building the diagnostic tools](#building-the-diagnostic-tools)
 - [Examples](#examples)
 - [Debugging and diagnostics](#debugging-and-diagnostics)
@@ -76,6 +77,28 @@ The scripts are intended to:
   - /usb/usbstick/openvario/download/
 
 If the default paths in your system differ, update the variables at the top of the script before running it.
+
+## Screenshots
+Below are placeholder sections for screenshots. Add your images to the repository under a folder such as `docs/screenshots/` and reference them here.
+
+```markdown
+![XCSoar on Raspberry Pi 4](docs/screenshots/xcsoar-rpi4.jpg)
+```
+
+```markdown
+![Installer / patch workflow](docs/screenshots/installer-workflow.png)
+```
+
+```markdown
+![DRI diagnostics output](docs/screenshots/dri-diagnostics.png)
+```
+
+Suggested folder layout:
+```bash
+mkdir -p docs/screenshots
+```
+
+Then place images in `docs/screenshots/` and keep filenames descriptive and consistent.
 
 ## Building the diagnostic tools
 Navigate to the DRI diagnostic folder and compile the utilities:
